@@ -1,0 +1,56 @@
+.header {
+  background-color: #43494a;
+  display: flex;
+
+  div {
+    max-width: 80%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  button {
+    max-width: 20%;
+    background: none;
+    border: none;
+    margin-left: auto;
+    &:hover {
+      cursor: pointer;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .logoContainer {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.menu {
+  background-color: #43494a;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 20px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 9;
+
+  .closeMenu {
+    align-self: end;
+    margin-right: 15px;
+  }
+
+  ul {
+    margin-left: 15px;
+    li {
+      margin: 10px 0;
+    }
+  }
+}

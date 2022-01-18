@@ -1,0 +1,25 @@
+.homeBlock {
+  padding: 10px 20px 30px;
+
+  h2 {
+    padding-bottom: 15px;
+    border-bottom: thin solid #95ede7;
+  }
+
+  &Container {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .showMore {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    a {
+      background-color: #3dd3c9;
+      color: #fff;
+      font-weight: 600;
+      padding: 10px 30px;
+    }
+  }
+}
